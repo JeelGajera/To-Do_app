@@ -1,8 +1,9 @@
 version: '2.1'
 orbs:
-  vuln-scan: zt-cci-orb/zt-cci-orb@0.0.3
+  vuln-scan: zt-cci-orb/zt-cci-orb@0.0.4
 workflows:
   zerothreat-security-scan:
     jobs:
       - vuln-scan/scan-job:
           ZT_TOKEN: AWD4TRX
+          WAIT_FOR_ANALYSIS: true
