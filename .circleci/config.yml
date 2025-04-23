@@ -5,5 +5,5 @@ workflows:
   zerothreat-security-scan:
     jobs:
       - vuln-scan/scan-job:
-          ZT_TOKEN: "AWD4TRX"
+          ZT_TOKEN: "M9MT6E7Z3722.M9MT6E7Z4788"
           WAIT_FOR_ANALYSIS: true
